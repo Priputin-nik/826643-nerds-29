@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Никита Припутин](https://up.htmlacademy.ru/htmlcss/29/user/826643).
-* Наставник: [Дмитрий Казанцев] (https://up.htmlacademy.ru/htmlcss/29/user/24186)
+* Наставник: [Дмитрий Казанцев](https://up.htmlacademy.ru/htmlcss/29/user/24186).
 .
 
 ---
