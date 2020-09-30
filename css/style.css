@@ -1,0 +1,26 @@
+/* Variables */
+:root {
+--basic-white: #FFFFFF;
+--basic-black: #000000;
+--basic-light-black: #4D4D4D;
+--basic-grey: #888888;
+--basic-light-grey: #EEEEEE;
+
+/* buttons */
+--basic-coral: #FB565A;
+--basic-dark-coral: #E74246;
+--basic-darkest-coral: #D7373B;
+--basic-orange: #EFC849;
+--basic-green: #00CA74;
+--basic-darl-green: #00BC6C;
+--basic-darkest-green: #00AA62;
+/* fonts*/
+--basic-dark-grey: #283136;
+}
+/* Global */
+body {
+font-family: "Roboto", sans-serif;
+background-color: var(--basic-grey);
+color: var(--basic-dark-grey);
+
+}

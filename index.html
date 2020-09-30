@@ -1,91 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <h1>Nerds</h1>
-      <a href="#"><img src="https://via.placeholder.com/150x100" alt="Логотип"></a>
-      <nav>
-        <ul>
-         <li><a href="blank.html">Студия</a></li>
-         <li><a href="blank.html">Клиенты</a></li>
-         <li><a href="catalog.html">Магазин</a></li>
-         <li><a href="blank.html">Контакты</a></li>
+  <body class="page-body">
+    <header class="main-header">
+      <a href="#" class="main-header-logo"><img src="https://via.placeholder.com/150x100" alt="Логотип"></a>
+      <nav class="main-navigation">
+        <ul class="navigation">
+         <li class="navigation-item"><a href="blank.html">Студия</a></li>
+         <li class="navigation-item"><a href="blank.html">Клиенты</a></li>
+         <li class="navigation-item"><a href="catalog.html">Магазин</a></li>
+         <li class="navigation-item"><a href="blank.html">Контакты</a></li>
         </ul>
       </nav>
-      <a href="#">Корзина</a>
+      <a href="#" class="button-basket">Корзина</a>
     </header>
-    <main>
+    <main class="container">
+      <h1 class="title">Nerds</h1>
       <section>
-        <p>Долго, дорого, скурпулезно.<p>
-        <p>Математически Выверенный дизайн для вашего сайта или мобильного приложения</p>
-        <a href="#">Узнать больше</a>
-        <img src="«https://via.placeholder.com/150x100»">
+        <p class="first-subtitle">Долго, дорого, скурпулезно.<p>
+        <p class="slogan">Математически Выверенный дизайн для вашего сайта или мобильного приложения</p>
+        <a href="#" class="button-learn-more">Узнать больше</a>
+        <img src="https://via.placeholder.com/150x100" alt="Изображение телефонов и примитивов">
       </section>
       <section>
-        <h2>Наши услуги</h2>
-        <ul>
-          <li>
+        <h2 class="title">Наши услуги</h2>
+        <ul class="offers">
+          <li class="first-offer offers-item">
             <img src="https://via.placeholder.com/150x100" alt="Картинка веб-сайты">
-            <h3>Веб-Сайты</h3>
-            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a href="#">Заказать</a>
+            <h3 class="offer-title">Веб-Сайты</h3>
+            <p class="offer-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a href="#" class="offer-button">Заказать</a>
           </li>
-          <li>
+          <li class="second-offer offers-item">
             <img src="https://via.placeholder.com/150x100" alt="Картинка Приложения">
-            <h3>Приложения</h3>
-            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            <a href="#">Заказать</a>
+            <h3 class="offer-title">Приложения</h3>
+            <p class="offer-description">Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a href="#" class="offer-button">Заказать</a>
           </li>
-          <li>
+          <li class="third-offer offers-item">
             <img src="https://via.placeholder.com/150x100" alt="Картинка Презентации">
-            <h3>Презентации</h3>
-            <p>Вы даже не подозреваете насколько вы изумительны!</p>
-            <a href="#">Заказать</a>
+            <h3 class="offer-title">Презентации</h3>
+            <p class="offer-description">Вы даже не подозреваете насколько вы изумительны!</p>
+            <a href="#" class="offer-button">Заказать</a>
           </li>
         </ul>
       </section>
       <section>
-        <h2>О компании</h2>
-        <p>Мы - маленькая, но гордая дизайн-студия из Краснодара</p>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <p>Выполняем заказы на разработку:</p>
-        <ul>
-          <li>Веб-сайтов любой сложности</li>
-          <li>Мобильных приложений для IOS и Android</li>
-          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        <h2 class="title">О компании</h2>
+        <p class="second-subtitle">Мы - маленькая, но гордая дизайн-студия из Краснодара</p>
+        <p class="about-company">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <p class="assortment-list">Выполняем заказы на разработку:</p>
+        <ul class="assortment">
+          <li class="assortment-item">Веб-сайтов любой сложности</li>
+          <li class="assortment-item">Мобильных приложений для IOS и Android</li>
+          <li class="assortment-item">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
       </section>
       <section>
-        <img src="https://via.placeholder.com/150x100" alt="Логотип с фоном">
-        <h3>С 2004 года любим точность во всем:</h3>
-        <ul>
-          <li>146%<span>Уровень самоотдачи</span></li>
-          <li>100%<span>Соблюдение сроков</span></li>
-          <li>50%<span>Минимальная предоплата</span></li>
+        <img class="logo-with-background" src="https://via.placeholder.com/150x100" alt="Логотип с фоном">
+        <p class="stat-description">С 2004 года любим точность во всем:</p>
+        <ul class="stat-list">
+          <li class="stat-list-item">146%<span>Уровень самоотдачи</span></li>
+          <li class="stat-list-item">100%<span>Соблюдение сроков</span></li>
+          <li class="stat-list-item">50%<span>Минимальная предоплата</span></li>
         </ul>
       </section>
       <section>
-        <ul>
-          <li>
+        <ul class="partners-list-logo">
+          <li class="partners-list-logo-item">
             <a href="#">
               <img src="https://via.placeholder.com/150x100" alt="Ссылка логотип HtmlAcademy">
             </a>
           </li>
-          <li>
+          <li class="partners-list-logo-item">
             <a href="#">
               <img src="https://via.placeholder.com/150x100" alt="Ссылка логотип Borodinski">
             </a>
           </li>
-          <li>
+          <li class="partners-list-logo-item">
             <a href="#">
               <img src="https://via.placeholder.com/150x100" alt="Ссылка логотип Pink">
             </a>
           </li>
-          <li>
+          <li class="partners-list-logo-item">
             <a href="#">
               <img src="https://via.placeholder.com/150x100" alt="Ссылка логотип Mishka">
             </a>
@@ -93,27 +96,27 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <!--Карта-->
-      <ul>
-        <li>
+    <footer class="main-footer">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af852140c4d704664cbcf75c51b04bf70e94962811e95b7bcf1430483c24a2e90&amp;source=constructor" width="100%" height="416px" frameborder="0"></iframe>
+      <ul class="network-list">
+        <li class="network-list-item">
           <a href="#">
             <img src="https://via.placeholder.com/150x100" alt="Иконка вконтакте">
           </a>
         </li>
-        <li>
+        <li class="network-list-item">
           <a href="#">
             <img src="https://via.placeholder.com/150x100" alt="Иконка фейсбук">
           </a>
         </li>
-        <li>
+        <li class="network-list-item">
           <a href="#">
             <img src="https://via.placeholder.com/150x100" alt="Иконка Инстаграмм">
           </a>
         </li>
       </ul>
-      <p>Давайте дружить, это выгодно</p>
-      <p>Скидка 10% для друзей из социальных сетей</p>
+      <p class="footer-slogan">Давайте дружить, это выгодно</p>
+      <p class="footer-special-offer">Скидка 10% для друзей из социальных сетей</p>
     </footer>
   </body>
 </html>
