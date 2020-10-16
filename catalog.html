@@ -49,9 +49,9 @@
         <!--Переключатели фильтра-->
         <p class="filter-parameter">Сортировать</p>  
         <ul class="sort-list">
-          <li class="sort-list-item"><a href="#">По цене</a></li>
-          <li class="sort-list-item"><a href="#">По типу</a></li>
-          <li class="sort-list-item"><a href="#">По названию</a></li>
+          <li class="sort-item"><a href="#">По цене</a></li>
+          <li class="sort-item"><a href="#">По типу</a></li>
+          <li class="sort-item"><a href="#">По названию</a></li>
           <li class="sort-down"><a href="#">По убыванию</a></li>
           <li class="sort-up"><a href="#">По возрастанию</a></li>
         </ul>
@@ -74,8 +74,13 @@
           <li class="catalog-item">
             <a href="#">
               <h2>Pink</h2>
-              <img src="https://via.placeholder.com/150x100" alt="Картинка Pink">
+              <img class="pink-img" src="https://via.placeholder.com/150x100" alt="Картинка Pink">
             </a>
+            <article class="pink-hidden">
+              <a class="pink-name" href="#">Pink App</a>
+              <p class="pink-description">Продуктовый лендинг приложения для iOS и Android</p>
+              <a class="goods-price" href="#">9 900 &#8381;</a>
+            </article>
           </li>
           <li class="catalog-item">
             <a href="#">
@@ -129,6 +134,12 @@
           </a>
         </li>
       </ul>
+      <section class="map-note">
+        <p class="name-studio">Nёrds design studio</p>
+        <p class="address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p class="telephone">тел. <a href="tel: +78122757575">+7 (812) 275-75-75</a></p>
+        <a class="footer-button" href="#">Напишите нам</a>
+      </section>
       <p class="footer-slogan">Давайте дружить, это выгодно</p>
       <p class="footer-special-offer">Скидка 10% для друзей из социальных сетей</p>
     </footer>

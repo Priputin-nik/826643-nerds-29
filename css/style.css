@@ -88,22 +88,22 @@ body {
     line-height: 30px;
     text-transform: uppercase;
 }
-.offer-button-web {
+.web-offer .offers-link {
     color: var(--basic-white);
-    background-color: var(--basic-dark-coral);
+    background-color: var(--basic-coral);
     font-weight: 500;
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;
 }
-.offer-button-web:hover {
+.web-offer .offers-link:hover {
     background-color: var(--basic-dark-coral);
 }
-.offer-button-web:active {
+.web-offer .offers-link:active {
     background-color: var(--basic-darkest-coral);
     color: rgba(255, 255, 255, 0.3); 
 }
-.offer-button-app {
+.app-offer .offers-link {
     color: var(--basic-white);
     background-color: var(--basic-green);
     font-weight: 500;
@@ -111,14 +111,14 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-.offer-button-app:hover {
+.app-offer .offers-link:hover {
     background-color: var(--basic-darl-green);
 }
-.offer-button-app:active {
+.app-offer .offers-link:active {
     background-color: var(--basic-darkest-green);
     color: rgba(255, 255, 255, 0.3);
 }
-.offer-button-pres {
+.pres-offer .offers-link {
     color: var(--basic-white);
     background-color: var(--basic-orange);
     font-weight: 500;
@@ -126,10 +126,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-.offer-button-pres:hover {
+.pres-offer .offers-link:hover {
     background-color: var(--basic-dark-ogange);
 }
-.offer-button-pres:active {
+.pres-offer .offers-link:active {
     background-color: var(--basic-darkest-ogange);
     color: rgba(255, 255, 255, 0.3); 
 }
@@ -141,7 +141,7 @@ body {
 .about-company {
 
 }
-.assortment-list {
+.assortment-header {
 
     font-weight: 700;
 }
@@ -152,13 +152,18 @@ body {
 
     font-weight: 700;
 }
-.stat-list-item {
+.stat-item {
     font-size: 45px;
     line-height: 64px;
     font-weight: 700;
     list-style-type: none;
 }
-.stat-list-item span {
+.stat-item sup {
+    font-size: 26px;
+    line-height: 40px;
+}
+}
+.description-stat {
     line-height: 18px;
     font-size: 16px;
     font-weight: 400;
@@ -171,7 +176,36 @@ body {
 .footer-special-offer {
     line-height: 22px;
 }
-
+.name-studio {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--basic-black);
+    line-height: 30px;
+    font-weight: 700;
+}
+.address {
+    line-height: 18px;
+    color: var(--basic-normal-gray);
+}
+.telephone {
+    line-height: 18px;
+    color: var(--basic-normal-gray);
+}
+.footer-button {
+    background-color: var(--basic-coral);
+    color: var(--basic-white);
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer-button:hover {
+    background-color: var(--basic-dark-coral);
+}
+.footer-button:active {
+    background-color: var(--basic-darkest-coral);
+    color: rgba(255, 255, 255, 0.3);
+}
 /* Catalog */
 .title-catalog {
     font-weight: 500;
@@ -195,17 +229,17 @@ body {
     line-height: 19px; 
     list-style-type: none;
 }
-.sort-list-item a{
+.sort-item a{
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.3); 
 }
-.sort-list-item a:hover {
+.sort-item a:hover {
     color: rgba(0, 0, 0, 0.6); 
 }
-.sort-list-item a:active {
+.sort-item a:active {
     color: var(--basic-black);
 }
 .sort-list{
@@ -246,11 +280,30 @@ a .goods-description {
     line-height: 18px;
     color: var(--basic-white);
     background-color: var( --basic-coral);
+    text-decoration: none;
     }
+.goods-price:hover {
+   background-color: var(--basic-dark-coral);
+}
+.goods-price:active {
+    background-color: var(--basic-darkest-coral);
+}
 .pagination li{
     list-style-type: none;
     display: inline;
-
+}
+.pink-name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--basic-black);
+    text-decoration: none;
+}
+.pink-name:hover {
+    color: var(--basic-coral);
+}
+.pink-name:active {
+    color: rgba(0, 0, 0, 0.3);
 }
 .pagination-item {
     font-weight: 500;
