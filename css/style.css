@@ -162,7 +162,6 @@ body {
     font-size: 26px;
     line-height: 40px;
 }
-}
 .description-stat {
     line-height: 18px;
     font-size: 16px;
@@ -190,6 +189,11 @@ body {
 .telephone {
     line-height: 18px;
     color: var(--basic-normal-gray);
+}
+.phone-link {
+    text-decoration: none;
+    color: var(--basic-normal-gray);
+    line-height: 18px;
 }
 .footer-button {
     background-color: var(--basic-coral);
@@ -270,18 +274,18 @@ body {
 .link-goods-name {
     text-decoration: none;
 }
-a .goods-description {
+.goods-description {
     line-height: 18px;
     text-decoration: none;
     color: var(--basic-normal-gray);
-    }
+}
 .goods-price {
     font-weight: 500;
     line-height: 18px;
     color: var(--basic-white);
     background-color: var( --basic-coral);
     text-decoration: none;
-    }
+}
 .goods-price:hover {
    background-color: var(--basic-dark-coral);
 }
@@ -293,16 +297,19 @@ a .goods-description {
     display: inline;
 }
 .pink-name {
+    text-decoration: none;
+}
+.pink-name h2 {
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
     color: var(--basic-black);
     text-decoration: none;
 }
-.pink-name:hover {
+.pink-name h2:hover {
     color: var(--basic-coral);
 }
-.pink-name:active {
+.pink-name h2:active {
     color: rgba(0, 0, 0, 0.3);
 }
 .pagination-item {
