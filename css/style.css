@@ -296,21 +296,24 @@ body {
     list-style-type: none;
     display: inline;
 }
-.pink-name {
+.goods-name h2{
     text-decoration: none;
 }
-.pink-name h2 {
+.goods-name h2 {
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
     color: var(--basic-black);
     text-decoration: none;
 }
-.pink-name h2:hover {
+.goods-name h2:hover {
     color: var(--basic-coral);
 }
-.pink-name h2:active {
+.goods-name h2:active {
     color: rgba(0, 0, 0, 0.3);
+}
+.goods-hide {
+    visibility: hidden;
 }
 .pagination-item {
     font-weight: 500;
