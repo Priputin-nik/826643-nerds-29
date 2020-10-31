@@ -63,6 +63,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+.offers-item {
+    list-style-type: none;
+}
 .promo-header {
     font-weight: 500;
     font-size: 55px;
@@ -138,18 +141,10 @@ body {
     font-size: 45px;
     line-height: 45px;
 }
-.about-company {
-
-}
 .assortment-header {
-
     font-weight: 700;
 }
-.assortment-item {
-
-}
 .stat-description {
-
     font-weight: 700;
 }
 .stat-item {
@@ -167,6 +162,9 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+.partners-item {
+    list-style-type: none;
+}
 .footer-slogan {
     font-size: 36px;
     line-height: 36px;
@@ -174,6 +172,15 @@ body {
 }
 .footer-special-offer {
     line-height: 22px;
+}
+.social-item {
+    list-style-type: none;
+}
+.img-social {
+    background-color: #E1E1E1;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
 }
 .name-studio {
     text-transform: uppercase;
@@ -263,6 +270,9 @@ body {
     background-color: var(--basic-superdark-grey);
     color: rgba(0, 0, 0, 0.3); 
     border: none;
+}
+.catalog-item {
+    list-style-type: none;
 }
 .goods-name {
     font-size: 18px;
