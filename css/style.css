@@ -66,6 +66,24 @@ body {
 .offers-item {
     list-style-type: none;
 }
+.web-offer-img {
+    background-image: url(../img/offer-web.png);
+}
+.app-offer-img {
+    background-image: url(../img/offer-app.png);
+}
+.pres-offer-img {
+    background-image: url(../img/offer-present.png)
+}
+.offer-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 146px;
+    color: rgba(0,0,0,0);
+ 
+}
 .promo-header {
     font-weight: 500;
     font-size: 55px;
@@ -181,6 +199,9 @@ body {
     width: 81px;
     height: 81px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .name-studio {
     text-transform: uppercase;
